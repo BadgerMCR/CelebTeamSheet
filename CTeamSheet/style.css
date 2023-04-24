@@ -1,0 +1,339 @@
+
+.Cpitch {
+    background-repeat: no-repeat;
+    /* Set default background image */
+    background-image: url(/mediafiles/pitch.png);
+    background-size: 1200px 770px;
+    position: absolute;
+    top: 195px;
+    left: 700px;
+    width: 1920px;
+    height:1080px;
+   
+
+}
+
+h5#Cgk {
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-image: url(/mediafiles/celebshirt.png);
+    background-size: 100px 110px;
+    position: absolute;
+    top: 770px;
+    left: 1250px;
+    width: 100px;
+    height: 110px
+}
+h5#Cgk:empty{
+    height: 0px;
+}
+h5#Cgkname {
+    font-size: 1.1em;
+    font-weight: bold;
+    text-decoration: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    background-color: black;
+    position: absolute;
+    top: 880px;
+    left: 1235px;
+    width: fit-content;
+    height: 50px;
+}
+h5#Crb {
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-image: url(/mediafiles/celebshirt.png);
+    background-size: 100px 110px;
+    position: absolute;
+    top: 604px;
+    left: 1660px;
+    width: 100px;
+    height: 110px;
+}
+h5#Crb:empty{
+    height: 0px;
+}
+h5#Ccb1 {
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-image: url(/mediafiles/celebshirt.png);
+    background-size: 100px 110px;
+    position: absolute;
+    top: 625px;
+    left: 1420px;
+    width: 100px;
+    height: 110px;
+}
+h5#Ccb1:empty{
+    height: 0px;
+}
+h5#Ccb2 {
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-image: url(/mediafiles/celebshirt.png);
+    background-size: 100px 110px;
+    position: absolute;
+    top: 625px;
+    left: 1250px;
+    width: 100px;
+    height: 110px;
+}
+h5#Ccb2:empty{
+    height: 0px;
+}
+h5#Ccb3 {
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-image: url(/mediafiles/celebshirt.png);
+    background-size: 100px 110px;
+    position: absolute;
+    top: 625px;
+    left: 1080px;
+    width: 100px;
+    height: 110px;
+}
+h5#Ccb3:empty{
+    height: 0px;
+}
+
+
+h5#Clb {
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-image: url(/mediafiles/celebshirt.png);
+    background-size: 100px 110px;
+    position: absolute;
+    top: 604px;
+    left: 840px;
+    width: 100px;
+    height: 110px;
+}
+h5#Clb:empty{
+    background-size: 0px 0px;
+}
+
+h5#Crm {
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-image: url(/mediafiles/celebshirt.png);
+    background-size: 100px 110px;
+    position: absolute;
+    top: 405px;
+    left: 1635px;
+    width: 100px;
+    height: 110px;
+}
+h5#Crm:empty{
+    background-size: 0px 0px;
+}
+h5#Ccdm {
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-image: url(/mediafiles/celebshirt.png);
+    background-size: 100px 110px;
+    position: absolute;
+    top: 520px;
+    left: 1250px;
+    width: 100px;
+    height: 110px;
+}
+h5#Ccdm:empty{
+    background-size: 0px 0px;
+}
+h5#Ccm1 {
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-image: url(/mediafiles/celebshirt.png);
+    background-size: 100px 110px;
+    position: absolute;
+    top: 420px;
+    left: 1420px;
+    width: 100px;
+    height: 110px;
+}
+h5#Ccm1:empty{
+    background-size: 0px 0px;
+}
+h5#Ccm2 {
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-image: url(/mediafiles/celebshirt.png);
+    background-size: 100px 110px;
+    position: absolute;
+    top: 420px;
+    left: 1250px;
+    width: 100px;
+    height: 110px;
+}
+h5#Ccm2:empty{
+    background-size: 0px 0px;
+}
+
+h5#Ccm3 {
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-image: url(/mediafiles/celebshirt.png);
+    background-size: 100px 110px;
+    position: absolute;
+    top: 420px;
+    left: 1080px;
+    width: 100px;
+    height: 110px;
+}
+h5#Ccm3:empty{
+    background-size: 0px 0px;
+}
+h5#Ccam {
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-image: url(/mediafiles/celebshirt.png);
+    background-size: 100px 110px;
+    position: absolute;
+    top: 310px;
+    left: 1250px;
+    width: 100px;
+    height: 110px;
+}
+h5#Ccam:empty{
+    background-size: 0px 0px;
+}
+
+h5#Clm {
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-image: url(/mediafiles/celebshirt.png);
+    background-size: 100px 110px;
+    position: absolute;
+    top: 405px;
+    left: 865px;
+    width: 100px;
+    height: 110px;
+}
+h5#Clm:empty{
+    background-size: 0px 0px;
+}
+
+h5#Crw {
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-image: url(/mediafiles/celebshirt.png);
+    background-size: 100px 110px;
+    position: absolute;
+    top: 210px;
+    left: 1580px;
+    width: 100px;
+    height: 110px;
+}
+h5#Crw:empty{
+    background-size: 0px 0px;
+}
+h5#Cst1 {
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-image: url(/mediafiles/celebshirt.png);
+    background-size: 100px 110px;
+    position: absolute;
+    top: 195px;
+    left: 1420px;
+    width: 100px;
+    height: 110px;
+}
+h5#Cst1:empty{
+    background-size: 0px 0px;
+}
+
+h5#Cst2 {
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-image: url(/mediafiles/celebshirt.png);
+    background-size: 100px 110px;
+    position: absolute;
+    top: 195px;
+    left: 1250px;
+    width: 100px;
+    height: 110px;
+}
+h5#Cst2:empty{
+    background-size: 0px 0px;
+}
+
+h5#Cst3 {
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-image: url(/mediafiles/celebshirt.png);
+    background-size: 100px 110px;
+    position: absolute;
+    top: 195px;
+    left: 1080px;
+    width: 100px;
+    height: 110px;
+}
+h5#Cst3:empty{
+    background-size: 0px 0px;
+}
+
+
+
+h5#Clw {
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-image: url(/mediafiles/celebshirt.png);
+    background-size: 100px 110px;
+    position: absolute;
+    top: 210px;
+    left: 915px;
+    width: 100px;
+    height: 110px;
+}
+h5#Clw:empty{
+    background-size: 0px 0px;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.5s;
+}
+
+.fade-enter,
+.fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+}
+
+
