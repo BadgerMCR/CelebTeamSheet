@@ -194,6 +194,76 @@ module.exports = {
 			description: "Left Wing Name",
 			type: "String"
 		},
+		{
+			name: "CTeamname",
+			description: "Team Name",
+			type: "String"
+		},
+		{
+			name: "CmanName",
+			description: "Manager Name",
+			type: "String"
+		},
+		{
+			name: "Cbench1",
+			description: "Bench 1 Name",
+			type: "String"
+		},
+		{
+			name: "Cbench2",
+			description: "Bench 2 Name",
+			type: "String"
+		},
+		{
+			name: "Cbench3",
+			description: "Bench 3 Name",
+			type: "String"
+		},
+		{
+			name: "Cbench4",
+			description: "Bench 4 Name",
+			type: "String"
+		},
+		{
+			name: "Cbench5",
+			description: "Bench 5 Name",
+			type: "String"
+		},
+		{
+			name: "Cbench6",
+			description: "Bench 6 Name",
+			type: "String"
+		},
+		{
+			name: "Cbench7",
+			description: "Bench 7 Name",
+			type: "String"
+		},
+		{
+			name: "Cbench8",
+			description: "Bench 8 Name",
+			type: "String"
+		},
+		{
+			name: "Cbench9",
+			description: "Bench 9 Name",
+			type: "String"
+		},
+		{
+			name: "Cbench10",
+			description: "Bench 10 Name",
+			type: "String"
+		},
+		{
+			name: "Cbench11",
+			description: "Bench 11 Name",
+			type: "String"
+		},
+		{
+			name: "Cbench12",
+			description: "Bench 12 Name",
+			type: "String"
+		},
 	],
 	vue_template: getFile("imgtest.html").toString(),
 	//vue_component: getFile("component.js").toString(),
