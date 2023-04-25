@@ -21,7 +21,7 @@ h5#Cgk {
     background-image: url(/mediafiles/celebshirt.png);
     background-size: 95px 105px;
     position: absolute;
-    padding-top: 6px;
+    padding-top: 12px;
     top: 780px;
     left: 1250px;
     width: 95px;
@@ -48,15 +48,18 @@ h5#Cgkname {
     vertical-align: middle;
     background-color: black;
     position: absolute;
+    padding-top: 3px;
+    padding-bottom: 3px;
     padding-left: 10px;
     padding-right: 10px;
     width: fit-content;
-    height: 40px;
+    max-height: 100px;
     border: 2px solid #FFD700;
 }
 h5#Cgkname:empty{
     height: 0px;
     padding: 0px 0px 0px 0px;
+    border: 0px;
 }
 h5#Crb {
     font-size: 1.5em;
@@ -66,21 +69,22 @@ h5#Crb {
     background-image: url(/mediafiles/celebshirt.png);
     background-size: 95px 105px;
     position: absolute;
-    padding-top: 6px;
-    top: 604px;
+    padding-top: 13px;
+    top: 605px;
     left: 1660px;
     width: 95px;
     height: 105px;
 }
 h5#Crb:empty{
     height: 0px;
-    padding-top: 0px;
+    padding: 0px 0px 0px 0px;
+    border: 0px;
 }
 .Crbname{
-    height: 50px;
+    height: 60px;
     width: 100px;
     position: absolute;
-    top: 720px;
+    top: 710px;
     left: 1660px;
     display: flex;
     align-items: center;
@@ -93,15 +97,18 @@ h5#Crbname {
     vertical-align: middle;
     background-color: black;
     position: absolute;
+    padding-top: 3px;
+    padding-bottom: 3px;
     padding-left: 10px;
     padding-right: 10px;
     width: fit-content;
-    height: 40px;
+    max-height: 100px;
     border: 2px solid #FFD700;
 }
 h5#Crbname:empty{
     height: 0px;
     padding: 0px 0px 0px 0px;
+    border: 0px;
 }
 
 h5#Ccb1 {
@@ -113,7 +120,7 @@ h5#Ccb1 {
     background-image: url(/mediafiles/celebshirt.png);
     background-size: 95px 105px;
     position: absolute;
-    padding-top: 6px;
+    padding-top: 13px;
     top: 625px;
     left: 1420px;
     width: 95px;
@@ -134,22 +141,25 @@ h5#Ccb1:empty{
     justify-content: center;
 }
 h5#Ccb1name {
-    font-size: 0.75em;
+   font-size: 0.75em;
     font-weight: bold;
     text-align: center;
     vertical-align: middle;
     background-color: black;
     position: absolute;
+    padding-top: 3px;
+    padding-bottom: 3px;
     padding-left: 10px;
     padding-right: 10px;
     width: fit-content;
-    height: 40px;
+    max-height: 100px;
     border: 2px solid #FFD700;
    
 }
 h5#Ccb1name:empty{
     height: 0px;
     padding: 0px 0px 0px 0px;
+    border: 0px;
 }
 h5#Ccb2 {
     font-size: 1.5em;
@@ -159,19 +169,19 @@ h5#Ccb2 {
     background-image: url(/mediafiles/celebshirt.png);
     background-size: 95px 105px;
     position: absolute;
-    padding-top: 6px;
+    padding-top: 12px;
     top: 625px;
     left: 1250px;
-   width: 95px;
- height: 105px;
+    width: 95px;
+    height: 105px;
 }
 h5#Ccb2:empty{
     height: 0px;
     padding-top: 0px;
 }
 
-/*h5#Ccb2:empty ~ h5#Ccb3 {
-    left: 1120px;
+h5#Ccb2:empty ~ h5#Ccb3 {
+    left: 1110px;
 }
 h5#Ccb2:empty ~ h5#Ccb1 {
     left: 1390px;
@@ -181,7 +191,19 @@ h5#Ccb2:empty ~ h5#Crb {
 }
 h5#Ccb2:empty ~ h5#Clb {
     left: 880px;
-}*/
+}
+h5#Ccb2:empty ~ .Ccb3name  {
+    left: 1110px;
+}
+h5#Ccb2:empty ~ .Ccb1name  {
+    left: 1390px;
+}
+h5#Ccb2:empty ~ .Crbname {
+    left: 1620px;
+}
+h5#Ccb2:empty ~ .Clbname  {
+    left: 880px;
+}
 
 .Ccb2name{
     height: 50px;
@@ -200,30 +222,24 @@ h5#Ccb2name {
     vertical-align: middle;
     background-color: black;
     position: absolute;
+    padding-top: 3px;
+    padding-bottom: 3px;
     padding-left: 10px;
     padding-right: 10px;
     width: fit-content;
-    height: 40px;
+    max-height: 100px;
     border: 2px solid #FFD700;
 
 }
 h5#Ccb2name:empty{
     height: 0px;
     padding: 0px 0px 0px 0px;
+    border: 0px;
 }
-/*
+
 h5#Ccb2name:empty ~ .Ccb3name   {
     left: 1120px;
 }
-h5#Ccb2name:empty ~ h5#Ccb1 {
-    left: 1390px;
-}
-h5#Ccb2name:empty ~ h5#Crb {
-    left: 1620px;
-}
-h5#Ccb2name:empty ~ h5#Clb {
-    left: 880px;
-}*/
 
 h5#Ccb3 {
     font-size: 1.5em;
@@ -232,6 +248,7 @@ h5#Ccb3 {
     background-repeat: no-repeat;
     background-image: url(/mediafiles/celebshirt.png);
     background-size: 95px 105px;
+    padding-top: 12px;
     position: absolute;
     top: 625px;
     left: 1080px;
@@ -252,21 +269,24 @@ h5#Ccb3:empty{
     justify-content: center;
 }
 h5#Ccb3name {
-    font-size: 0.75em;
+   font-size: 0.75em;
     font-weight: bold;
     text-align: center;
     vertical-align: middle;
     background-color: black;
     position: absolute;
+    padding-top: 3px;
+    padding-bottom: 3px;
     padding-left: 10px;
     padding-right: 10px;
     width: fit-content;
-    height: 40px;
+    max-height: 100px;
     border: 2px solid #FFD700;
 }
 h5#Ccb3name:empty{
     height: 0px;
     padding: 0px 0px 0px 0px;
+    border: 0px;
 }
 h5#Clb {
     font-size: 1.5em;
@@ -275,6 +295,7 @@ h5#Clb {
     background-repeat: no-repeat;
     background-image: url(/mediafiles/celebshirt.png);
     background-size: 95px 105px;
+    padding-top: 12px;
     position: absolute;
     top: 604px;
     left: 840px;
@@ -295,21 +316,24 @@ h5#Clb:empty{
     justify-content: center;
 }
 h5#Clbname {
-    font-size: 0.75em;
+   font-size: 0.75em;
     font-weight: bold;
     text-align: center;
     vertical-align: middle;
     background-color: black;
     position: absolute;
+    padding-top: 3px;
+    padding-bottom: 3px;
     padding-left: 10px;
     padding-right: 10px;
     width: fit-content;
-    height: 40px;
+    max-height: 100px;
     border: 2px solid #FFD700;
 }
 h5#Clbname:empty{
     height: 0px;
     padding: 0px 0px 0px 0px;
+    border: 0px;
 }
 
 h5#Crm {
@@ -319,6 +343,7 @@ h5#Crm {
     background-repeat: no-repeat;
     background-image: url(/mediafiles/celebshirt.png);
     background-size: 95px 105px;
+    padding-top: 12px;
     position: absolute;
     top: 405px;
     left: 1635px;
@@ -339,21 +364,24 @@ h5#Crm:empty{
     justify-content: center;
 }
 h5#Crmname {
-    font-size: 0.75em;
+   font-size: 0.75em;
     font-weight: bold;
     text-align: center;
     vertical-align: middle;
     background-color: black;
     position: absolute;
+    padding-top: 3px;
+    padding-bottom: 3px;
     padding-left: 10px;
     padding-right: 10px;
     width: fit-content;
-    height: 40px;
+    max-height: 100px;
     border: 2px solid #FFD700;
 }
 h5#Crmname:empty{
     height: 0px;
     padding: 0px 0px 0px 0px;
+    border: 0px;
 }
 h5#Ccdm {
     font-size: 1.5em;
@@ -362,6 +390,7 @@ h5#Ccdm {
     background-repeat: no-repeat;
     background-image: url(/mediafiles/celebshirt.png);
     background-size: 95px 105px;
+    padding-top: 12px;
     position: absolute;
     top: 520px;
     left: 1250px;
@@ -382,21 +411,24 @@ h5#Ccdm:empty{
     justify-content: center;
 }
 h5#Ccdmname {
-    font-size: 0.75em;
+   font-size: 0.75em;
     font-weight: bold;
     text-align: center;
     vertical-align: middle;
     background-color: black;
     position: absolute;
+    padding-top: 3px;
+    padding-bottom: 3px;
     padding-left: 10px;
     padding-right: 10px;
     width: fit-content;
-    height: 40px;
+    max-height: 100px;
     border: 2px solid #FFD700;
 }
 h5#Ccdmname:empty{
     height: 0px;
     padding: 0px 0px 0px 0px;
+    border: 0px;
 }
 h5#Ccm1 {
     font-size: 1.5em;
@@ -405,6 +437,7 @@ h5#Ccm1 {
     background-repeat: no-repeat;
     background-image: url(/mediafiles/celebshirt.png);
     background-size: 95px 105px;
+    padding-top: 12px;
     position: absolute;
     top: 420px;
     left: 1420px;
@@ -425,21 +458,24 @@ h5#Ccm1:empty{
     justify-content: center;
 }
 h5#Ccm1name {
-    font-size: 0.75em;
+   font-size: 0.75em;
     font-weight: bold;
     text-align: center;
     vertical-align: middle;
     background-color: black;
     position: absolute;
+    padding-top: 3px;
+    padding-bottom: 3px;
     padding-left: 10px;
     padding-right: 10px;
     width: fit-content;
-    height: 40px;
+    max-height: 100px;
     border: 2px solid #FFD700;
 }
 h5#Ccm1name:empty{
     height: 0px;
     padding: 0px 0px 0px 0px;
+    border: 0px;
 }
 
 h5#Ccm2 {
@@ -449,6 +485,7 @@ h5#Ccm2 {
     background-repeat: no-repeat;
     background-image: url(/mediafiles/celebshirt.png);
     background-size: 95px 105px;
+    padding-top: 12px;
     position: absolute;
     top: 420px;
     left: 1250px;
@@ -457,6 +494,30 @@ h5#Ccm2 {
 }
 h5#Ccm2:empty{
     background-size: 0px 0px;
+}
+h5#Ccm2:empty ~ h5#Ccm3 {
+    left: 1110px;
+}
+h5#Ccm2:empty ~ h5#Ccm1 {
+    left: 1390px;
+}
+h5#Ccm2:empty ~ h5#Crm {
+    left: 1620px;
+}
+h5#Ccm2:empty ~ h5#Clm {
+    left: 880px;
+}
+h5#Ccm2:empty ~ .Ccm3name  {
+    left: 1110px;
+}
+h5#Ccm2:empty ~ .Ccm1name  {
+    left: 1390px;
+}
+h5#Ccm2:empty ~ .Crmname {
+    left: 1620px;
+}
+h5#Ccm2:empty ~ .Clmname  {
+    left: 880px;
 }
 .Ccm2name{
     height: 50px;
@@ -469,21 +530,24 @@ h5#Ccm2:empty{
     justify-content: center;
 }
 h5#Ccm2name {
-    font-size: 0.75em;
+   font-size: 0.75em;
     font-weight: bold;
     text-align: center;
     vertical-align: middle;
     background-color: black;
     position: absolute;
+    padding-top: 3px;
+    padding-bottom: 3px;
     padding-left: 10px;
     padding-right: 10px;
     width: fit-content;
-    height: 40px;
+    max-height: 100px;
     border: 2px solid #FFD700;
 }
 h5#Ccm2name:empty{
     height: 0px;
     padding: 0px 0px 0px 0px;
+    border: 0px;
 }
 h5#Ccm3 {
     font-size: 1.5em;
@@ -492,6 +556,7 @@ h5#Ccm3 {
     background-repeat: no-repeat;
     background-image: url(/mediafiles/celebshirt.png);
     background-size: 95px 105px;
+    padding-top: 12px;
     position: absolute;
     top: 420px;
     left: 1080px;
@@ -512,21 +577,24 @@ h5#Ccm3:empty{
     justify-content: center;
 }
 h5#Ccm3name {
-    font-size: 0.75em;
+   font-size: 0.75em;
     font-weight: bold;
     text-align: center;
     vertical-align: middle;
     background-color: black;
     position: absolute;
+    padding-top: 3px;
+    padding-bottom: 3px;
     padding-left: 10px;
     padding-right: 10px;
     width: fit-content;
-    height: 40px;
+    max-height: 100px;
     border: 2px solid #FFD700;
 }
 h5#Ccm3name:empty{
     height: 0px;
     padding: 0px 0px 0px 0px;
+    border: 0px;
 }
 h5#Ccam {
     font-size: 1.5em;
@@ -535,6 +603,7 @@ h5#Ccam {
     background-repeat: no-repeat;
     background-image: url(/mediafiles/celebshirt.png);
     background-size: 95px 105px;
+    padding-top: 12px;
     position: absolute;
     top: 310px;
     left: 1250px;
@@ -555,21 +624,24 @@ h5#Ccam:empty{
     justify-content: center;
 }
 h5#Ccamname {
-    font-size: 0.75em;
+   font-size: 0.75em;
     font-weight: bold;
     text-align: center;
     vertical-align: middle;
     background-color: black;
     position: absolute;
+    padding-top: 3px;
+    padding-bottom: 3px;
     padding-left: 10px;
     padding-right: 10px;
     width: fit-content;
-    height: 40px;
+    max-height: 100px;
     border: 2px solid #FFD700;
 }
 h5#Ccamname:empty{
     height: 0px;
     padding: 0px 0px 0px 0px;
+    border: 0px;
 }
 
 h5#Clm {
@@ -579,6 +651,7 @@ h5#Clm {
     background-repeat: no-repeat;
     background-image: url(/mediafiles/celebshirt.png);
     background-size: 95px 105px;
+    padding-top: 12px;
     position: absolute;
     top: 405px;
     left: 865px;
@@ -599,21 +672,24 @@ h5#Clm:empty{
     justify-content: center;
 }
 h5#Clmname {
-    font-size: 0.75em;
+   font-size: 0.75em;
     font-weight: bold;
     text-align: center;
     vertical-align: middle;
     background-color: black;
     position: absolute;
+    padding-top: 3px;
+    padding-bottom: 3px;
     padding-left: 10px;
     padding-right: 10px;
     width: fit-content;
-    height: 40px;
+    max-height: 100px;
     border: 2px solid #FFD700;
 }
 h5#Clmname:empty{
     height: 0px;
     padding: 0px 0px 0px 0px;
+    border: 0px;
 }
 h5#Crw {
     font-size: 1.5em;
@@ -622,9 +698,10 @@ h5#Crw {
     background-repeat: no-repeat;
     background-image: url(/mediafiles/celebshirt.png);
     background-size: 95px 105px;
+    padding-top: 12px;
     position: absolute;
     top: 210px;
-    left: 1580px;
+    left: 1575px;
     width: 95px;
    height: 105px;
 }
@@ -635,28 +712,31 @@ h5#Crw:empty{
     height: 50px;
     width: 100px;
     position: absolute;
-    top: 210px;
-    left: 1580px;
+    top: 315px;
+    left: 1575px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 h5#Crwname {
-    font-size: 0.75em;
+   font-size: 0.75em;
     font-weight: bold;
     text-align: center;
     vertical-align: middle;
     background-color: black;
     position: absolute;
+    padding-top: 3px;
+    padding-bottom: 3px;
     padding-left: 10px;
     padding-right: 10px;
     width: fit-content;
-    height: 40px;
+    max-height: 100px;
     border: 2px solid #FFD700;
 }
 h5#Crwname:empty{
     height: 0px;
     padding: 0px 0px 0px 0px;
+    border: 0px;
 }
 h5#Cst1 {
     font-size: 1.5em;
@@ -665,6 +745,7 @@ h5#Cst1 {
     background-repeat: no-repeat;
     background-image: url(/mediafiles/celebshirt.png);
     background-size: 95px 105px;
+    padding-top: 12px;
     position: absolute;
     top: 195px;
     left: 1420px;
@@ -678,28 +759,31 @@ h5#Cst1:empty{
     height: 50px;
     width: 100px;
     position: absolute;
-    top: 195px;
+    top: 300px;
     left: 1420px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 h5#Cst1name {
-    font-size: 0.75em;
+   font-size: 0.75em;
     font-weight: bold;
     text-align: center;
     vertical-align: middle;
     background-color: black;
     position: absolute;
+    padding-top: 3px;
+    padding-bottom: 3px;
     padding-left: 10px;
     padding-right: 10px;
     width: fit-content;
-    height: 40px;
+    max-height: 100px;
     border: 2px solid #FFD700;
 }
 h5#Cst1name:empty{
     height: 0px;
     padding: 0px 0px 0px 0px;
+    border: 0px;
 }
 h5#Cst2 {
     font-size: 1.5em;
@@ -708,6 +792,7 @@ h5#Cst2 {
     background-repeat: no-repeat;
     background-image: url(/mediafiles/celebshirt.png);
     background-size: 95px 105px;
+    padding-top: 12px;
     position: absolute;
     top: 195px;
     left: 1250px;
@@ -717,33 +802,60 @@ h5#Cst2 {
 h5#Cst2:empty{
     background-size: 0px 0px;
 }
+h5#Cst2:empty ~ h5#Cst3 {
+    left: 1120px;
+}
+h5#Cst2:empty ~ h5#Cst1 {
+    left: 1390px;
+}
+h5#Cst2:empty ~ h5#Crw {
+    left: 1620px;
+}
+h5#Cst2:empty ~ h5#Clw {
+    left: 880px;
+}
+h5#Cst2:empty ~ .Cst3name  {
+    left: 1120px;
+}
+h5#Cst2:empty ~ .Cst1name  {
+    left: 1390px;
+}
+h5#Cst2:empty ~ .Crwname {
+    left: 1620px;
+}
+h5#Cst2:empty ~ .Clwname  {
+    left: 880px;
+}
 
 .Cst2name{
     height: 50px;
     width: 100px;
     position: absolute;
-    top: 195px;
+    top: 300px;
     left: 1250px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 h5#Cst2name {
-    font-size: 0.75em;
+   font-size: 0.75em;
     font-weight: bold;
     text-align: center;
     vertical-align: middle;
     background-color: black;
     position: absolute;
+    padding-top: 3px;
+    padding-bottom: 3px;
     padding-left: 10px;
     padding-right: 10px;
     width: fit-content;
-    height: 40px;
+    max-height: 100px;
     border: 2px solid #FFD700;
 }
 h5#Cst2name:empty{
     height: 0px;
     padding: 0px 0px 0px 0px;
+    border: 0px;
 }
 h5#Cst3 {
     font-size: 1.5em;
@@ -754,6 +866,7 @@ h5#Cst3 {
     background-repeat: no-repeat;
     background-image: url(/mediafiles/celebshirt.png);
     background-size: 95px 105px;
+    padding-top: 12px;
     position: absolute;
     top: 195px;
     left: 1080px;
@@ -774,21 +887,24 @@ h5#Cst3:empty{
     justify-content: center;
 }
 h5#Cst3name {
-    font-size: 0.75em;
+   font-size: 0.75em;
     font-weight: bold;
     text-align: center;
     vertical-align: middle;
     background-color: black;
     position: absolute;
+    padding-top: 3px;
+    padding-bottom: 3px;
     padding-left: 10px;
     padding-right: 10px;
     width: fit-content;
-    height: 40px;
+    max-height: 100px;
     border: 2px solid #FFD700;
 }
 h5#Cst3name:empty{
     height: 0px;
     padding: 0px 0px 0px 0px;
+    border: 0px;
 }
 
 h5#Clw {
@@ -798,9 +914,10 @@ h5#Clw {
     background-repeat: no-repeat;
     background-image: url(/mediafiles/celebshirt.png);
     background-size: 95px 105px;
+    padding-top: 12px;
     position: absolute;
     top: 210px;
-    left: 915px;
+    left: 920px;
     width: 95px;
    height: 105px;
 }
@@ -811,34 +928,37 @@ h5#Clw:empty{
     height: 50px;
     width: 100px;
     position: absolute;
-    top: 210px;
-    left: 915px;
+    top: 315px;
+    left: 920px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 h5#Clwname {
-    font-size: 0.75em;
+   font-size: 0.75em;
     font-weight: bold;
     text-align: center;
     vertical-align: middle;
     background-color: black;
     position: absolute;
+    padding-top: 3px;
+    padding-bottom: 3px;
     padding-left: 10px;
     padding-right: 10px;
     width: fit-content;
-    height: 40px;
+    max-height: 100px;
     border: 2px solid #FFD700;
 }
 h5#Clwname:empty{
     height: 0px;
     padding: 0px 0px 0px 0px;
+    border: 0px;
 }
 
 .CTeamname{
     width: 1840px;
     height: 960px;
-    background-color: rgba(0, 0, 0, 0.178);
+    background-color: rgb(255, 255, 255);
     border: 6px solid #FFD700;
     position: absolute;
     top: 20px;
@@ -871,7 +991,174 @@ h5#CmanName {
     top: 200px;
     left: 70px;
 }
-
+h5#Cbench1 {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: fit-content;
+    height: 40px;
+    top: 270px;
+    left: 70px;
+}
+h5#Cbench2 {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: fit-content;
+    height: 40px;
+    top: 340px;
+    left: 70px;
+}
+h5#Cbench3 {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: fit-content;
+    height: 40px;
+    top: 410px;
+    left: 70px;
+}
+h5#Cbench4 {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: fit-content;
+    height: 40px;
+    top: 480px;
+    left: 70px;
+}
+h5#Cbench5 {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: fit-content;
+    height: 40px;
+    top: 550px;
+    left: 70px;
+}
+h5#Cbench6 {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: fit-content;
+    height: 40px;
+    top: 620px;
+    left: 70px;
+}
+h5#Cbench7 {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: fit-content;
+    height: 40px;
+    top: 690px;
+    left: 70px;
+}
+h5#Cbench8 {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: fit-content;
+    height: 40px;
+    top: 760px;
+    left: 70px;
+}
+h5#Cbench9 {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: fit-content;
+    height: 40px;
+    top: 830px;
+    left: 70px;
+}
+h5#Cbench10 {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: fit-content;
+    height: 40px;
+    top: 900px;
+    left: 70px;
+}
+h5#Cbench11 {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: fit-content;
+    height: 40px;
+    top: 970px;
+    left: 70px;
+}
+h5#Cbench12 {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: fit-content;
+    height: 40px;
+    top: 1040px;
+    left: 70px;
+}
 
 .fade-enter-active,
 .fade-leave-active {
