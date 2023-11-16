@@ -9,7 +9,8 @@
     left: 700px;
     width: 1920px;
     height:1080px;
-   
+    
+
 
 }
 
@@ -18,7 +19,7 @@ h5#Cgk {
     text-align: center;
     vertical-align: middle;
     background-repeat: no-repeat;
-    background-image: url(/mediafiles/celebshirt.png);
+    background-image: url(/mediafiles/gk4.png);
     background-size: 95px 105px;
     position: absolute;
     padding-top: 12px;
@@ -958,29 +959,45 @@ h5#Clwname:empty{
 .CTeamname{
     width: 1840px;
     height: 960px;
-    background-color: rgb(255, 255, 255);
-    border: 6px solid #FFD700;
+    font-family: 'Bahnschrift';
     position: absolute;
     top: 20px;
     left: 70px;
     display: flex;
     justify-content: center;
+    
 }
+
+.Cbackground{
+    width: 1840px;
+    height: 960px;
+    background-image: url(/mediafiles/mcr-teamsheet.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    display: flex;
+    justify-content: center;
+    opacity: 0.9;
+}
+
 h5#CTeamname {
+  font-family: 'Bahnschrift';
     font-size: 4em;
     font-weight: bold;
-    color: #FFD700;
+    color: #000000;
     text-align: center;
     position: absolute;
-   top: -20px;
-    z-index: 0;
+   top: 2px;
+    z-index: 1;
 
 }
 
 h5#CmanName {
-    font-size: 2em;
+    font-size: 1.8em;
     font-weight: bold;
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: center;
     vertical-align: middle;
     position: absolute;
@@ -988,13 +1005,13 @@ h5#CmanName {
     padding-right: 10px;
     width: fit-content;
     height: 40px;
-    top: 200px;
-    left: 70px;
+    top: 280px;
+    left: 200px;
 }
-h5#Cbench1 {
-    font-size: 1.4em;
+h5#CManager {
+    font-size: 1em;
     font-weight: bold;
-    color: black;
+   color: rgb(255, 255, 255);
     text-align: center;
     vertical-align: middle;
     position: absolute;
@@ -1002,13 +1019,49 @@ h5#Cbench1 {
     padding-right: 10px;
     width: fit-content;
     height: 40px;
-    top: 270px;
-    left: 70px;
+    top: 240px;
+    left: 200px;
+}
+h5#CSubs {
+    font-size: 1em;
+    font-weight: bold;
+   color: rgb(255, 255, 255);
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: fit-content;
+    height: 40px;
+    top: 400px;
+    left: 200px;
+}
+
+.Managerpic img {
+    width: 150px;
+ height: 150px;
+ position: absolute;
+ top: 245px;
+ left: 560px;
+ }
+h5#Cbench1 {
+    font-size: 1.5em;
+    font-weight: bold;
+   color: rgb(255, 255, 255);
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: fit-content;
+    height: 40px;
+    top: 440px;
+    left: 200px;
 }
 h5#Cbench2 {
-    font-size: 1.4em;
+    font-size: 1.5em;
     font-weight: bold;
-    color: black;
+   color: rgb(255, 255, 255);
     text-align: center;
     vertical-align: middle;
     position: absolute;
@@ -1016,13 +1069,13 @@ h5#Cbench2 {
     padding-right: 10px;
     width: fit-content;
     height: 40px;
-    top: 340px;
-    left: 70px;
+    top: 490px;
+    left: 200px;
 }
 h5#Cbench3 {
-    font-size: 1.4em;
+    font-size: 1.5em;
     font-weight: bold;
-    color: black;
+   color: rgb(255, 255, 255);
     text-align: center;
     vertical-align: middle;
     position: absolute;
@@ -1030,13 +1083,13 @@ h5#Cbench3 {
     padding-right: 10px;
     width: fit-content;
     height: 40px;
-    top: 410px;
-    left: 70px;
+    top: 540px;
+    left: 200px;
 }
 h5#Cbench4 {
-    font-size: 1.4em;
+    font-size: 1.5em;
     font-weight: bold;
-    color: black;
+   color: rgb(255, 255, 255);
     text-align: center;
     vertical-align: middle;
     position: absolute;
@@ -1044,13 +1097,13 @@ h5#Cbench4 {
     padding-right: 10px;
     width: fit-content;
     height: 40px;
-    top: 480px;
-    left: 70px;
+    top: 590px;
+    left: 200px;
 }
 h5#Cbench5 {
-    font-size: 1.4em;
+    font-size: 1.5em;
     font-weight: bold;
-    color: black;
+   color: rgb(255, 255, 255);
     text-align: center;
     vertical-align: middle;
     position: absolute;
@@ -1058,27 +1111,13 @@ h5#Cbench5 {
     padding-right: 10px;
     width: fit-content;
     height: 40px;
-    top: 550px;
-    left: 70px;
+    top: 640px;
+    left: 200px;
 }
 h5#Cbench6 {
-    font-size: 1.4em;
+    font-size: 1.5em;
     font-weight: bold;
-    color: black;
-    text-align: center;
-    vertical-align: middle;
-    position: absolute;
-    padding-left: 10px;
-    padding-right: 10px;
-    width: fit-content;
-    height: 40px;
-    top: 620px;
-    left: 70px;
-}
-h5#Cbench7 {
-    font-size: 1.4em;
-    font-weight: bold;
-    color: black;
+   color: rgb(255, 255, 255);
     text-align: center;
     vertical-align: middle;
     position: absolute;
@@ -1087,12 +1126,26 @@ h5#Cbench7 {
     width: fit-content;
     height: 40px;
     top: 690px;
-    left: 70px;
+    left: 200px;
+}
+h5#Cbench7 {
+    font-size: 1.5em;
+    font-weight: bold;
+   color: rgb(255, 255, 255);
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: fit-content;
+    height: 40px;
+    top: 740px;
+    left: 200px;
 }
 h5#Cbench8 {
-    font-size: 1.4em;
+    font-size: 1.5em;
     font-weight: bold;
-    color: black;
+   color: rgb(255, 255, 255);
     text-align: center;
     vertical-align: middle;
     position: absolute;
@@ -1100,13 +1153,13 @@ h5#Cbench8 {
     padding-right: 10px;
     width: fit-content;
     height: 40px;
-    top: 760px;
-    left: 70px;
+    top: 790px;
+    left: 200px;
 }
 h5#Cbench9 {
-    font-size: 1.4em;
+    font-size: 1.5em;
     font-weight: bold;
-    color: black;
+   color: rgb(255, 255, 255);
     text-align: center;
     vertical-align: middle;
     position: absolute;
@@ -1114,13 +1167,13 @@ h5#Cbench9 {
     padding-right: 10px;
     width: fit-content;
     height: 40px;
-    top: 830px;
-    left: 70px;
+    top: 840px;
+    left: 200px;
 }
 h5#Cbench10 {
-    font-size: 1.4em;
+    font-size: 1.5em;
     font-weight: bold;
-    color: black;
+   color: rgb(255, 255, 255);
     text-align: center;
     vertical-align: middle;
     position: absolute;
@@ -1128,13 +1181,13 @@ h5#Cbench10 {
     padding-right: 10px;
     width: fit-content;
     height: 40px;
-    top: 900px;
-    left: 70px;
+    top: 440px;
+    left: 200px;
 }
 h5#Cbench11 {
-    font-size: 1.4em;
+    font-size: 1.5em;
     font-weight: bold;
-    color: black;
+   color: rgb(255, 255, 255);
     text-align: center;
     vertical-align: middle;
     position: absolute;
@@ -1142,13 +1195,13 @@ h5#Cbench11 {
     padding-right: 10px;
     width: fit-content;
     height: 40px;
-    top: 970px;
-    left: 70px;
+    top: 440px;
+    left: 200px;
 }
 h5#Cbench12 {
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: bold;
-    color: black;
+   color: rgb(255, 255, 255);
     text-align: center;
     vertical-align: middle;
     position: absolute;
@@ -1156,8 +1209,8 @@ h5#Cbench12 {
     padding-right: 10px;
     width: fit-content;
     height: 40px;
-    top: 1040px;
-    left: 70px;
+    top: 470px;
+    left: 200px;
 }
 
 .fade-enter-active,

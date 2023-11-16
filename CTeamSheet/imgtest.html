@@ -1,5 +1,6 @@
 <div class="CTeamSheet">
     <div class="CTeamname"><h5 id="CTeamname">{{ visibleEntry.props.CTeamname }}</h5></div>
+    <div class="Cbackground"></div>
 
     <div class="Cpitch"> <h5 id="Cpitch"></h5></div>
 
@@ -49,7 +50,12 @@
             <div class="Clwname"><h5 id="Clwname">{{ visibleEntry.props.Clwname }}</h5></div>
     </div>
 
-    <div class="CmanName"><h5 id="CmanName">{{ visibleEntry.props.CmanName }}</h5></div>
+    <div class="CmanName">
+        <h5 id="CmanName">{{ visibleEntry.props.CmanName }}</h5>
+        <h5 id="CManager">{{ "Manager" }}</h5>
+        <h5 id="CSubs">{{ "Substitutes" }}</h5>
+    </div>
+
     <div class="Cbench1"><h5 id="Cbench1">{{ visibleEntry.props.Cbench1 }}</h5></div>
     <div class="Cbench2"><h5 id="Cbench2">{{ visibleEntry.props.Cbench2 }}</h5></div>
     <div class="Cbench3"><h5 id="Cbench3">{{ visibleEntry.props.Cbench3 }}</h5></div>
@@ -63,6 +69,9 @@
     <div class="Cbench11"><h5 id="Cbench11">{{ visibleEntry.props.Cbench11 }}</h5></div>
     <div class="Cbench12"><h5 id="Cbench12">{{ visibleEntry.props.Cbench12 }}</h5></div>
     
+    <div class="Managerpic">    
+        <img :src="imageUrl1" /> 
+    </div>
 
 </div>
 

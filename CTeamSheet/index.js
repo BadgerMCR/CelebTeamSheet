@@ -205,6 +205,11 @@ module.exports = {
 			type: "String"
 		},
 		{
+			name: "image1",
+			description: "Manager Picture",
+			type: "ImageFile"
+		},
+		{
 			name: "Cbench1",
 			description: "Bench 1 Name",
 			type: "String"
@@ -266,6 +271,6 @@ module.exports = {
 		},
 	],
 	vue_template: getFile("imgtest.html").toString(),
-	//vue_component: getFile("component.js").toString(),
+	vue_component: getFile("component.js").toString(),
 	css: getFile("style.css").toString()
 }
